@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,7 @@
     "eslint-plugin-react": "^7.32.2",
     "parcel-bundler": "^1.12.5",
     "postcss": "^8.4.21",
-    "postcss-preset-env": "^8.0.1",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.8.4"
   },
   "dependencies": {
